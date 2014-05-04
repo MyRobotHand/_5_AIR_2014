@@ -1,0 +1,554 @@
+/* html, body { height: 100%; } */
+body{
+	background-color:#FFF;
+	font-size: 20px;
+	color: #000;
+	font-family: 'NewsGothicBT-RomanCondensed',sans-serif; 
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+
+h2 {
+	font-weight:normal;
+	font-size: 1.6em;
+	margin:0 0 0.5em 0;
+	padding:0;
+	text-transform:uppercase;
+}
+/*----------- NAV --------------*/
+/*-----------SITE NAVIGATION ---------------*/
+#nav-holder {
+	position:relative;
+	display:block;
+	width:100%;
+}
+
+#nav {
+	padding: 1% 2% 1% 0;
+	width: 30%;
+	z-index:100;
+}
+
+/*-----------PAGE NAVIGATION ---------------*/
+.pg-nav {
+	width: 100%;
+	max-width: inherit;
+	position: fixed;
+	text-align: center;
+	left: 0px;
+	top: 0px;
+	z-index: 2000;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	pointer-events:none;
+}
+.pg-nav span {
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	z-index: 2000;
+	width: 6px;
+	height: 20px;
+	background: #cccfd9;
+	margin: 0em 0.4em 0em 0em; /* NEED TABLET AND MOBILE SPACING */
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	opacity: 0.6;
+	pointer-events:all;
+}
+
+.pg-nav span.pg-prev {
+	width: 8%;
+	height: 160px;
+	margin: 8.333333333333% 0px 0px 0.5%;
+	float:left;
+	background: transparent url(../../images/arrow_prev.png) no-repeat;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	-ms-background-size: contain;
+	background-size: contain;
+}
+.pg-nav span.pg-next {
+	width: 11%;
+	height: 160px;
+	margin: 6% 0.5% 0 0;
+	float:right;
+	background: transparent url(../../images/arrow_next.png) no-repeat;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	-ms-background-size: contain;
+	background-size: contain;
+}
+.pg-nav span.pg-prev {
+	background-position: 0px 0px;
+}
+.pg-nav span.pg-next {
+	background-position: 0px 0px;
+}
+.pg-nav span.pg-prev:hover,
+.pg-nav span.pg-next:hover,
+.pg-nav span.pg-dot:hover{
+	opacity: 0.8;
+}
+
+/*----------- PAGE CLASSES--------------*/
+div.pg-page {
+	position:absolute;
+	display:block;
+	width:100%;
+	clear:both;
+	top:0px;
+	left:0px;
+}
+div.pg-wrapper { 
+	position:relative; 
+	text-align:left;
+	padding: 1em;
+}
+div.pg-wrapper img {  
+	max-width: 100%;
+	max-height: 86%;
+}
+div.pg-box {  
+    position:absolute;
+	letter-spacing: 0.06em;
+	font-family: 'NewsGothicBT-RomanCondensed',sans-serif;
+}
+
+div.pg-trans-bg {
+	background-color:#FFF;  
+	opacity:0.8; 
+    filter:alpha(opacity=80); /* IE transparency */
+}
+
+div.pg-header {
+	width: 100%;
+	float:right;
+	margin: 20px 0px 0px 0px;
+}
+p.pg-box-content {
+	line-height: 108%;
+	padding: 1.8em;
+	color: #000;
+	text-align: left;
+}
+.txt-xsmall {
+	font-size: 1em;
+	line-height: 110%;
+}
+.txt-small {
+	font-size: 1.5em;
+	line-height: 110%;
+}
+.txt-medium {
+	font-size: 2em;
+	line-height: 110%;
+}
+.txt-large {
+	font-size: 3em;
+	line-height: 102%;
+}
+
+/*----------- PAGE IDS--------------*/
+/*-----------    1    --------------*/
+#page-1 {
+	display:block;
+	z-index: 9;
+}
+/*-----------    2    --------------*/
+#page-2 {
+	display:none;
+	z-index: 10;
+}
+/*-----------    3    --------------*/
+#page-3 {
+	display:none;
+	z-index: 11;
+}
+#page-three-box {
+	top: 	40%;
+    left:	40%;  
+    width:	50%;
+}
+#page-three-box-content {
+	color:#fff;
+	/*font-family: 'harriet_display_thinregular';*/
+}
+
+/*-----------    4    --------------*/
+#page-4 {
+	display:none;
+	z-index: 12;
+}
+#page-four-box {
+	top: 	40%;
+    left:	50%;  
+    width:	48.15%;
+}
+
+#page-four-box-content {
+	text-align:left;
+	padding: 2em;
+	color:#fff146;
+}
+/*-----------    5    --------------*/
+#page-5 {
+	display:none;
+	z-index: 13;
+}
+/*-----------    6    --------------*/
+#page-6 {
+	display:none;
+	z-index: 14;
+}
+
+/*-----------    7    --------------*/
+#page-7 {
+	display:none;
+	z-index: 15;
+}
+/*-----------    8    --------------*/
+#page-8 {
+	display:none;
+	z-index: 16;
+}
+/*-----------    9    --------------*/
+#page-9 {
+	display:none;
+	z-index: 17;
+}
+/*-----------    10    --------------*/
+#page-10 {
+	display:none;
+	z-index: 17;
+}
+/*-----------    11    --------------*/
+#page-11 {
+	display:none;
+	z-index: 18;
+}    
+/*-----------    12    --------------*/
+#page-12 {
+	display:none;
+	z-index: 19;
+}
+
+/*-----------    13    --------------*/
+#page-13 {
+	display:none;
+	z-index: 20;
+}
+
+/*-----------    14    --------------*/
+#page-14 {
+	display:none;
+	z-index: 21;
+}
+
+/*-----------    15    --------------*/
+#page-15 {
+	display:none;
+	z-index: 22;
+}
+
+/*-----------    16    --------------*/
+#page-16 {
+	display:none;
+	z-index: 23;
+}
+
+/*-----------    17    --------------*/
+#page-17 {
+	display:none;
+	z-index: 24;
+}
+
+/*-----------    18    --------------*/
+#page-18 {
+	display:none;
+	z-index: 25;
+}
+
+/*-----------    19    --------------*/
+#page-19 {
+	display:none;
+	z-index: 26;
+}
+
+/*-----------    CONTRIBUTORS   --------------*/
+#page-contributors {
+	display:none;
+	z-index: 30;
+}
+
+#page-contributors-box {
+	top:	7.518796992481%;
+    left:	41.114982578397%;  
+    width:	53.310104529617%;
+	
+	background-color:#FFF;  
+	opacity:0.8; 
+    filter:alpha(opacity=80); /* IE transparency */
+	
+	padding: 1.5em;
+	text-align: left;
+	
+}
+
+#page-contributors-box-content {
+	font-family: 'NewsGothicBT-RomanCondensed',sans-serif;
+	font-size: 0.75em;
+	line-height: 130%;
+	letter-spacing: 0.1em;
+	color: #000;
+	
+	-moz-column-count: 2;
+	-moz-column-gap: 1.5em;
+	-moz-column-rule: none;
+	-moz-column-width: 50%;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 1.5em;
+	-webkit-column-rule: none;
+	-webkit-column-width: 50%;
+	column-count: 2;
+	column-gap: 1.5em;
+	column-rule: none;
+	column-width: 50%;
+}
+
+/*-----------    RESOURCES   --------------*/
+#page-resources {
+	display:none;
+	z-index: 31;
+}
+
+#page-resources-box {
+	top:	7.518796992481%;
+    left:	41.114982578397%;  
+    width:	53.310104529617%;
+	background-color:#FFF;  
+	opacity:0.8; 
+    filter:alpha(opacity=80); /* IE transparency */
+	padding: 1.5em;
+	text-align: left;
+}
+
+#page-resources-box-content {
+	font-family: 'NewsGothicBT-RomanCondensed',sans-serif;
+	font-size: 0.75em;
+	line-height: 130%;
+	letter-spacing: 0.1em;
+	color: #000;
+	-moz-column-count: 2;
+	-moz-column-gap: 1.5em;
+	-moz-column-rule: none;
+	-moz-column-width: 50%;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 1.5em;
+	-webkit-column-rule: none;
+	-webkit-column-width: 50%;
+	column-count: 2;
+	column-gap: 1.5em;
+	column-rule: none;
+	column-width: 50%;
+}
+
+/*-----------    WARDROBE    --------------*/
+#page-wardrobe {
+	display:none;
+	z-index: 32;
+}
+
+#page-wardrobe-box {
+	top:	7.518796992481%;
+    left:	41.114982578397%;  
+    width:	53.310104529617%;
+	background-color:#FFF;  
+	opacity:0.95; 
+    filter:alpha(opacity=95); /* IE transparency */
+	padding: 1.5em;
+	text-align: left;
+}
+
+#page-wardrobe-box-content {
+	font-family: 'NewsGothicBT-RomanCondensed',sans-serif;
+	font-size: 0.75em;
+	line-height: 130%;
+	letter-spacing: 0.1em;
+	color: #000;
+	
+	-moz-column-count: 2;
+	-moz-column-gap: 1.5em;
+	-moz-column-rule: none;
+	-moz-column-width: 50%;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 1.5em;
+	-webkit-column-rule: none;
+	-webkit-column-width: 50%;
+	column-count: 2;
+	column-gap: 1.5em;
+	column-rule: none;
+	column-width: 50%;
+}
+
+
+/*-----------    WARDROBE STYLES    --------------*/
+div.pg-wardrobe-box {
+	position:relative;
+	width: 100%;
+	padding: 0;
+	margin: 0 0 1em 0;
+	vertical-align: top;
+	line-height: 120%;
+	
+	-webkit-column-break-inside:avoid;
+	-moz-column-break-inside:avoid;
+	-o-column-break-inside:avoid;
+	-ms-column-break-inside:avoid;
+	column-break-inside:avoid;
+}
+
+div.pg-wardrobe-thumb {
+	position: relative;
+	top:0;
+	right:0;
+	display:block;
+	clear:both;
+	width: 90%;
+	margin: 0;
+	padding: 0;
+	text-align:right;
+	vertical-align:top;
+}
+
+div.pg-wardrobe-label {
+	display:block;
+	position:inherit;
+}
+
+/*-------------------------*/
+div.pg-credits-box {
+	position:relative;
+	width: 100%;
+	margin: 0 0 0.8em 0;
+	vertical-align: top;
+	
+	-webkit-column-break-inside:avoid;
+	-moz-column-break-inside:avoid;
+	-o-column-break-inside:avoid;
+	-ms-column-break-inside:avoid;
+	column-break-inside:avoid; 
+}
+
+div.pg-credits-box a, div.pg-wardrobe-label a {
+	color:#000; background-color:#ffdb39; padding: 0 0.3em;
+}
+
+div.pg-credits-box a:link, div.pg-credits-box a:visited, div.pg-wardrobe-label a:link, div.pg-wardrobe-label a:visited {
+	text-decoration:none;
+}
+
+div.pg-credits-box a:hover, div.pg-credits-box a:active, div.pg-wardrobe-label a:hover, div.pg-wardrobe-label a:active {
+	text-decoration:none; background-color:#ff33ff; color:#000;
+}
+
+div.pg-credits-box img {
+	/* float:left; */
+	position: absolute;
+	left: 0;
+	top: 0;
+	width:16.875%;
+	margin: 0 1em 1em 0;	
+}
+
+/*-------------- MEDIA QUERIES -------------------- */
+/*----------- MOBILE -------------*/
+@media (max-width:640px) {
+	body { 
+		font-size: 10px;
+   }
+}
+
+@media (min-width:641px) and (max-width:999px) {
+	body { 
+		font-size: 16px;
+   }
+}
+
+
+/*----------- THE REST -------------*/
+@media (min-width:1000px) {
+	body {
+		font-size: 20px;
+	}
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+ 
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+
+}
+	
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* Styles */
+}
+ 
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* Styles */
+}
+ 
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* Styles */
+}
+ 
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/* Styles */
+}
+ 
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/* Styles */
+}
+ 
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* Styles */
+}
+ 
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* Styles */
+}
+ 
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}

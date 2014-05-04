@@ -1,0 +1,658 @@
+body{
+	background-color:#FFF;
+	font-size: 20px;
+	color: #000;
+	min-height: 480px;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+img {
+	max-width: 100%;
+}
+
+h2 {
+	font-weight:normal;
+	font-size: 2em;
+	line-height:100%;
+	margin:0 0 0.5em 0;
+	padding:0;
+}
+
+/*----------- NAV --------------*/
+/*-----------SITE NAVIGATION ---------------*/
+#nav-holder {
+	position:absolute;
+	display:block;
+	width:100%;
+	top: 0;
+	left: 0;
+}
+
+#nav {
+	padding: 1% 2% 1% 1.6%;
+	width: 30%;
+	/*background-color:#FFF;
+	opacity:0.8; 
+    /*filter:alpha(opacity=80); /* IE transparency */
+	z-index:100;
+}
+
+/*-----------PAGE NAVIGATION ---------------*/
+.pg-nav {
+	width: 100%;
+	max-width: inherit;
+	position: fixed;
+	text-align: center;
+	left: 0px;
+	top: 0px;
+	z-index: 2000;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	
+	pointer-events:none;
+}
+.pg-nav span {
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	z-index: 2000;
+	width: 6px;
+	height: 20px;
+	background: #cccfd9;
+	margin: 0em 0.4em 0em 0em; /* NEED TABLET AND MOBILE SPACING */
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	opacity: 0.6;
+	
+	pointer-events:all;
+}
+
+.pg-nav span.pg-prev {
+	width: 8%;
+	height: 160px;
+	margin: 8.333333333333% 0px 0px 0.5%;
+	float:left;
+	background: transparent url(../../../images/arrow_prev.png) no-repeat;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	-ms-background-size: contain;
+	background-size: contain;
+}
+.pg-nav span.pg-next {
+	width: 11%;
+	height: 160px;
+	margin: 6% 0.5% 0 0;
+	float:right;
+	background: transparent url(../../../images/arrow_next.png) no-repeat;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	-ms-background-size: contain;
+	background-size: contain;
+}
+.pg-nav span.pg-prev {
+	background-position: 0px 0px;
+}
+.pg-nav span.pg-next {
+	background-position: 0px 0px;
+}
+.pg-nav span.pg-prev:hover,
+.pg-nav span.pg-next:hover,
+.pg-nav span.pg-dot:hover{
+	opacity: 0.8;
+}
+
+
+/*----------- PAGE CLASSES--------------*/
+div.pg-pages {
+	position:relative;
+	clear:both;
+}
+
+div.pg-page {
+	width:100%;
+	position:absolute;
+	display:block;
+	clear:both;
+	top:0px;
+	left:0px;
+}
+
+div.pg-wrapper {  
+    /* float:left; 		/* important */  
+    position:relative; 	/* important(so we can absolutely position the description div */
+	text-align:left;
+	width: 100%;
+	padding: 1em;
+}
+
+div.pg-wrapper img {  
+    width: 100%; max-width: 1700px;
+}
+
+div.pg-box {  
+    position:relative;
+	text-align:right;
+	width: 100%; max-width: 1700px;
+}
+
+div.pg-header {
+	width: 100%;
+	float:right;
+	margin: 20px 0px 0px 0px;
+}
+
+div.pg-box-content {
+	position:absolute;
+	right: 0;
+	font-family: 'NewsGothicBT-RomanCondensed',sans-serif;
+	text-align:right;
+	font-size: 1em;
+	letter-spacing: 0.06em;
+	margin: 1em 0 0 0;
+	line-height: 130%;
+	color: #000;
+}
+
+.txt-small {
+	font-size: 1.5em;
+	line-height: 110%;
+}
+
+.txt-medium {
+	font-size: 2em;
+	line-height: 110%;
+}
+
+.txt-large {
+	font-size: 3em;
+	line-height: 90%;
+}
+
+/*----------- PAGE IDS--------------*/
+/*-----------    1    --------------*/
+/* TOP LEFT */
+#page-one {
+	display:block;
+	z-index: 25;
+}
+
+/*-----------    2    --------------*/
+/* NO CONTENT */
+#page-two {
+	display:none;
+	z-index: 24;
+}
+
+/*-----------    3    --------------*/
+/* 2:1 RIGHT SIDE BOX */
+#page-three {
+	display:none;
+	z-index: 23;
+}
+
+/*-----------    4    --------------*/
+/* NO CONTENT */
+#page-four {
+	display:none;
+	z-index: 22;
+}
+
+#page-four-box {}
+
+/*-----------    5    --------------*/
+/* 2:1 RIGHT SIDE BOX */
+#page-five {
+	display:none;
+	z-index: 21;
+}
+
+/*-----------    6    --------------*/
+/* 2:1 RIGHT SIDE BOX */
+#page-six {
+	display:none;
+	z-index: 20;
+}
+
+/*-----------    7    --------------*/
+#page-seven {
+	display:none;
+	z-index: 19;
+}
+
+
+/*-----------    8    --------------*/
+/* 1:2 RIGHT SIDE BOX */
+#page-eight {
+	display:none;
+	z-index: 18;
+}
+
+/*-----------    9    --------------*/
+#page-nine {
+	display:none;
+	z-index: 17;
+}
+
+/*-----------    10    --------------*/
+/* 1:1 RIGHT SIDE BOX */
+#page-ten {
+	display:none;
+	z-index: 16;
+}
+
+/*-----------    11    --------------*/
+#page-eleven {
+	display:none;
+	z-index: 15;
+}    
+
+/*-----------    12    --------------*/
+#page-twelve {
+	display:none;
+	z-index: 14;
+}
+
+/*-----------    13    --------------*/
+#page-thirteen {
+	display:none;
+	z-index: 13;
+}
+
+
+/*-----------    interview    --------------*/
+#page-interview {
+	display:none;
+	z-index: 12;
+	font-family: 'NewsGothicBT-RomanCondensed',sans-serif;
+}
+
+#pg-interview {
+	position:absolute;
+	top:	15%;
+    width:	40%;  
+    left:	55.749128919861%;
+	background-color:#FFF;  
+	opacity:0.8; 
+    filter:alpha(opacity=80); /* IE transparency */
+	padding: 1.5em;
+	text-align: left;
+}
+
+#pg-interview-content {
+	font-size: 0.75em;
+	line-height: 140%;
+	letter-spacing: 0.1em;
+	color: #000;
+	
+	-moz-column-count: 2;
+	-moz-column-gap: 1.5em;
+	-moz-column-rule: none;
+	-moz-column-width: 50%;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 1.5em;
+	-webkit-column-rule: none;
+	-webkit-column-width: 50%;
+	column-count: 2;
+	column-gap: 1.5em;
+	column-rule: none;
+	column-width: 50%;
+}
+
+#pg-interview p {
+	margin: 0 0 1em 0;
+	font-size: 1.1em;
+}
+
+.pg-copy-em {
+	color:#666
+}
+
+#pg-interview a  {
+	color:#000; background-color:#e6e6e6;
+}
+
+#pg-interview a:link, #pg-interview a:visited {
+	text-decoration:none;
+}
+
+#pg-interview a:hover, #pg-interview a:active {
+	text-decoration:underline;
+}
+
+
+/*-----------    RESOURCES    --------------*/
+#page-resources {
+	display:none;
+	z-index: 11;
+	font-family: 'NewsGothicBT-RomanCondensed',sans-serif;
+}
+
+#pg-resources {
+	position:absolute;
+	top:	15%;
+    width:	45%;  
+    left:	50%;
+	background-color:#FFF;  
+	opacity:0.8; 
+    filter:alpha(opacity=80); /* IE transparency */
+	padding: 1.5em;
+	text-align: left;
+}
+
+#pg-resources-content {
+	font-size: 0.75em;
+	line-height: 140%;
+	letter-spacing: 0.1em;
+	color: #000;
+	
+	-moz-column-count: 2;
+	-moz-column-gap: 1.5em;
+	-moz-column-rule: none;
+	-moz-column-width: 50%;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 1.5em;
+	-webkit-column-rule: none;
+	-webkit-column-width: 50%;
+	column-count: 2;
+	column-gap: 1.5em;
+	column-rule: none;
+	column-width: 50%;
+}
+
+#pg-resources p {
+	margin: 0 0 1em 0;
+	font-size: 1.1em;
+}
+
+.pg-copy-em {
+	color:#666
+}
+
+#pg-resources a  {
+	color:#000; background-color:#e6e6e6;
+}
+
+#pg-resources a:link, #pg-interview a:visited {
+	text-decoration:none;
+}
+
+#pg-resources a:hover, #pg-interview a:active {
+	text-decoration:underline;
+}
+}
+
+/*-----------    CREDITS STYLES    --------------*/
+div.pg-wardrobe-box {
+	position:relative;
+	width: 100%;
+	padding: 0;
+	margin: 0 0 1em 0;
+	vertical-align: top;
+	line-height: 120%;
+	
+	-webkit-column-break-inside:avoid;
+	-moz-column-break-inside:avoid;
+	-o-column-break-inside:avoid;
+	-ms-column-break-inside:avoid;
+	column-break-inside:avoid;
+}
+
+div.pg-wardrobe-thumb {
+	position: relative;
+	top:0;
+	right:0;
+	display:block;
+	clear:both;
+	width: 90%;
+	margin: 0;
+	padding: 0;
+	text-align:right;
+	vertical-align:top;
+}
+
+div.pg-wardrobe-label {
+	display:block;
+	position:inherit;
+}
+
+/*-------------------------*/
+div.pg-credits-box {
+	position:relative;
+	width: 100%;
+	margin: 0 0 0.8em 0;
+	vertical-align: top;
+	
+	-webkit-column-break-inside:avoid;
+	-moz-column-break-inside:avoid;
+	-o-column-break-inside:avoid;
+	-ms-column-break-inside:avoid;
+	column-break-inside:avoid; 
+}
+
+div.pg-credits-box a, div.pg-wardrobe-label a {
+	color:#000; background-color:#e6e6e6;
+}
+
+div.pg-credits-box a:link, div.pg-credits-box a:visited, div.pg-wardrobe-label a:link, div.pg-wardrobe-label a:visited {
+	text-decoration:none;
+}
+
+div.pg-credits-box a:hover, div.pg-credits-box a:active, div.pg-wardrobe-label a:hover, div.pg-wardrobe-label a:active {
+	text-decoration:underline;
+}
+
+div.pg-credits-box img {
+	/* float:left; */
+	position: absolute;
+	left: 0;
+	top: 0;
+	width:16.875%;
+	margin: 0 1em 1em 0;	
+}
+
+/*-------------------------*/
+div.pg-box a {
+	color:#000; background-color:#e6e6e6;
+}
+
+div.pg-box a:link, div.pg-box a:visited {
+	text-decoration:none;
+}
+
+div.pg-box a:hover, div.pg-box a:active {
+	text-decoration:underline;
+}
+
+/*-------------- MEDIA QUERIES -------------------- */
+/*----------- MOBILE -------------*/
+@media (max-width:640px) {
+	body { 
+		font-size: 10px;
+   }
+   
+   #pg-interview {
+		/*position:absolute;
+		top:	15%;
+		width:	40%;  
+		left:	55.749128919861%;*/
+		float:left;
+		background-color:#FFF;  
+		opacity:0.8; 
+		filter:alpha(opacity=80); /* IE transparency */
+		padding: 1.5em;
+		text-align: left;
+   }
+   
+   #pg-interview-content {
+	font-size: 1.2em;
+	line-height: 140%;
+	letter-spacing: 0.1em;
+	color: #000;
+	
+	-moz-column-count: 1;
+	-moz-column-gap: 0;
+	-moz-column-rule: none;
+	-moz-column-width: 100%;
+	-webkit-column-count: 1;
+	-webkit-column-gap: 0;
+	-webkit-column-rule: none;
+	-webkit-column-width: 100%;
+	column-count: 1;
+	column-gap: 0;
+	column-rule: none;
+	column-width: 100%;
+	}
+}
+
+@media (min-width:641px) and (max-width:999px) {
+	body { 
+		font-size: 16px;
+   }
+   
+	#pg-interview {
+		position:absolute;
+		top:	15%;
+		width:	46%;  
+		left:	52%;
+		background-color:#FFF;  
+		opacity:0.8; 
+		filter:alpha(opacity=80); /* IE transparency */
+		padding: 1.5em;
+		text-align: left;
+	}
+
+	#pg-interview-content {
+		font-size: 0.86em;
+		line-height: 140%;
+		letter-spacing: 0.1em;
+		color: #000;
+		
+		-moz-column-count: 1;
+		-moz-column-gap: 0;
+		-moz-column-rule: none;
+		-moz-column-width: 100%;
+		-webkit-column-count: 1;
+		-webkit-column-gap: 0;
+		-webkit-column-rule: none;
+		-webkit-column-width: 100%;
+		column-count: 1;
+		column-gap: 0;
+		column-rule: none;
+		column-width: 100%;
+	}   
+}
+
+
+/*----------- THE REST -------------*/
+@media (min-width:1000px) {
+	body {
+		font-size: 20px;
+	}
+	
+	#pg-interview {
+		position:absolute;
+		top:	15%;
+		width:	46%;  
+		left:	52%;
+		background-color:#FFF;  
+		opacity:0.8; 
+		filter:alpha(opacity=80); /* IE transparency */
+		padding: 1.5em;
+		text-align: left;
+	}
+
+	#pg-interview-content {
+		font-size: 0.75em;
+		line-height: 140%;
+		letter-spacing: 0.1em;
+		color: #000;
+		
+		-moz-column-count: 2;
+		-moz-column-gap: 1.5em;
+		-moz-column-rule: none;
+		-moz-column-width: 50%;
+		-webkit-column-count: 2;
+		-webkit-column-gap: 1.5em;
+		-webkit-column-rule: none;
+		-webkit-column-width: 50%;
+		column-count: 2;
+		column-gap: 1.5em;
+		column-rule: none;
+		column-width: 50%;
+	}
+
+}
+
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+ 
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+
+}
+	
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* Styles */
+}
+ 
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* Styles */
+}
+ 
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* Styles */
+}
+ 
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/* Styles */
+}
+ 
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/* Styles */
+}
+ 
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* Styles */
+}
+ 
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* Styles */
+}
+ 
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}

@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/* CSS Document */
+/*--------------- STRANGELOVE ---------------------------*/
+@font-face {
+    font-family: 'strangelove_textregular';
+    src: url('webfonts/strangelove-text-webfont.eot');
+    src: url('webfonts/strangelove-text-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/strangelove-text-webfont.woff') format('woff'),
+         url('webfonts/strangelove-text-webfont.ttf') format('truetype'),
+         url('webfonts/strangelove-text-webfont.svg#strangelove_textregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*--------------- NEWS GOTHIC CONDENSED ---------------------------*/
+@font-face {
+	font-family: 'NewsGothicBT-RomanCondensed';
+	src: url('webfonts/24D241_0_0.eot');
+	src: url('webfonts/24D241_0_0.eot?#iefix') format('embedded-opentype'),
+		 url('webfonts/24D241_0_0.woff') format('woff'),
+		 url('webfonts/24D241_0_0.ttf') format('truetype');
+}
+
+/*--------------- HARRIET DISPLAY ---------------------------*/
+@font-face {
+    font-family: 'harriet_display_regularRg';
+    src: url('webfonts/harrietdisplay-regular-v1r5-webfont.eot');
+    src: url('webfonts/harrietdisplay-regular-v1r5-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/harrietdisplay-regular-v1r5-webfont.woff') format('woff'),
+         url('webfonts/harrietdisplay-regular-v1r5-webfont.ttf') format('truetype'),
+         url('webfonts/harrietdisplay-regular-v1r5-webfont.svg#harriet_display_regularRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'harriet_display_thinregular';
+    src: url('webfonts/harrietdisplay-thin-v1r5-webfont.eot');
+    src: url('webfonts/harrietdisplay-thin-v1r5-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/harrietdisplay-thin-v1r5-webfont.woff') format('woff'),
+         url('webfonts/harrietdisplay-thin-v1r5-webfont.ttf') format('truetype'),
+         url('webfonts/harrietdisplay-thin-v1r5-webfont.svg#harriet_display_thinregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*--------------- BUSINESS PENMANSHIP---------------------------*/
+@font-face {
+	font-family: 'business_penmanshipregular';
+	src: url('webfonts/businesspenmanship-webfont.eot');
+	src: url('webfonts/businesspenmanship-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('webfonts/businesspenmanship-webfont.woff') format('woff'),
+		 url('webfonts/businesspenmanship-webfont.ttf') format('truetype');
+}

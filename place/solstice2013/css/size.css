@@ -1,0 +1,11 @@
+@media screen and (min-device-height: 568px) and (-webkit-min-device-pixel-ratio: 2){
+  	body {
+		background-color:#CCC;
+	}
+}
+
+@media screen and (max-device-height: 480px) and (-webkit-min-device-pixel-ratio: 2){
+  	body {
+		background-color:#0FF;
+	}
+}

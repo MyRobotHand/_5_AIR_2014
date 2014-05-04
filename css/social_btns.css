@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* CSS Document */
+.shareMenu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background: #fff;
+}
+.shareMenu li {
+	padding: 0;
+	margin: 0;
+	height: 39px;
+	margin-right: 1em;
+	list-style: none;
+	background-repeat: no-repeat;
+}
+.shareMenu li a, .shareMenu li a:visited {
+	display: block;
+	text-decoration: none;
+	text-indent: -9999px;
+	height: 39px;
+	background-repeat: no-repeat;
+}
+
+.shareMenu.instagram {background-image: url(images/rollover04.gif); width: 122px;}
+.shareMenu.instagram a {background-image: url(images/rollover04a.gif);}
+.shareMenu.facebook {background-image: url(images/rollover01.gif); width: 94px;}
+.shareMenu.facebook a {background-image: url(images/rollover01a.gif);}
+.shareMenu.pinterest {background-image: url(images/rollover02.gif); width: 106px;}
+.shareMenu.pinterest a {background-image: url(images/rollover02a.gif);}
+.shareMenu.twitter {background-image: url(images/rollover03.gif); width: 128px;}
+.shareMenu.twitter a {background-image: url(images/rollover03a.gif);}
+.shareMenu.google {background-image: url(images/rollover04.gif); width: 122px;}
+.shareMenu.google a {background-image: url(images/rollover04a.gif);}
+ul.shareMenu li a:hover {background: none;}
+.shareMenu li {float: left;}
+.shareMenu:after {content: "."; display: block; height: 0; clear: both; visibility: hidden;}

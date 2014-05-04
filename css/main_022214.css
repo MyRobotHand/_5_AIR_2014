@@ -1,0 +1,161 @@
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+.header-container {
+	text-transform: uppercase;
+	padding:30px 0;
+}
+
+.header .title {
+	font-size:1.5em;
+	display: inline-block;
+	padding:0;
+	margin:0 12px 0 0;
+	color:#006678;
+}
+
+.header p.preorder_btn{
+	cursor:pointer;
+	display: inline-block;
+	font-size:1.4em;
+	/*height:16px;*/
+	margin:0;
+	padding:6px 25px 6px;
+	-webkit-border-radius: 99px;
+	-moz-border-radius: 99px;
+	border-radius: 99px;
+	color:#000;
+	border:2px solid #006678;
+	background:rgba(0,65,79,1);
+}
+
+.header p.preorder_btn:hover{
+	-moz-transition: all .15s ease-in;
+	-o-transition: all .15s ease-in;
+	-ms-transition: all .15s ease-in;
+	transition: all .15s ease-in;
+	border:2px solid #fd5965;
+	background:rgba(253,89,101,1);
+}
+
+.header p.preorder_btn a{
+	color:#fff;
+	text-decoration: none;
+}
+
+/* This parent can be any width and height */
+.ghost {
+  text-align: center;
+  /*border:1px solid green;*/
+}
+
+/* The ghost, nudged to maintain perfect centering */
+.ghost:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em; /* Adjusts for spacing */
+}
+
+/* The element to be centered, can
+   also be of any width and height */
+.centered {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.hidden{
+	display: none;
+}
+
+.da-thumbs .container{
+	border-top: solid 2px #fff;
+}
+
+.da-thumbs li div{
+	background-color: rgba(255,255,255,0.75);
+}
+
+.da-thumbs .montana{
+	background:url(../images/preview-graphic-montana.png) center center no-repeat  rgba(255,255,255,0.75);
+}
+
+.da-thumbs .catskills{
+	background:url(../images/preview-catskills.png) center center no-repeat rgba(255,255,255,0.75);
+}
+
+.da-thumbs .nootka{
+	background:url(../images/preview-nootka.png) center center no-repeat rgba(255,255,255,0.75);
+}
+
+.da-thumbs .kahala{
+	background:url(../images/preview-kahala.png) center center no-repeat rgba(255,255,255,0.75);
+}
+
+.da-thumbs .place{
+	background:url(../images/preview-place.png) center center no-repeat rgba(255,255,255,0.75);
+}
+
+.da-thumbs .portraits{
+	background:url(../images/preview-portraits.png) center center no-repeat rgba(255,255,255,0.75);
+}
+
+.da-thumbs .jenner{
+	background:url(../images/preview-jenner.png) center center no-repeat rgba(255,255,255,0.75);
+}
+
+.da-thumbs .southern-land{
+	background:url(../images/preview-southern-land.png) center center no-repeat rgba(255,255,255,0.75);
+}
+
+.da-thumbs .southcarolina{
+	background:url(../images/preview-southcarolina.png) center center no-repeat rgba(255,255,255,0.75);
+}
+
+.da-thumbs .sonoma{
+	background:url(../images/preview-graphic-sonoma.png) center center no-repeat rgba(255,255,255,0.75);
+}
+
+.da-thumbs .newzealand{
+	background:url(../images/preview-graphic-newzealand.png) center center no-repeat rgba(255,255,255,0.75);
+}
+
+.da-thumbs .bend{
+	background:url(../images/preview-graphic-bend.png) center center no-repeat rgba(255,255,255,0.75);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

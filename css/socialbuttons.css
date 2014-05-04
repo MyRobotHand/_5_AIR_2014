@@ -1,0 +1,242 @@
+ul#share-menu {
+	/*width: 278px;*/
+	 /*orig 300px + 74px for new button 'newsletter' */
+	margin: 0.6em auto ;
+	padding: 0;
+	position:relative;
+	/*left:0.6em;*/
+	list-style: none;
+
+}
+
+ul#share-menu li { display: inline-block; }
+
+ul#share-menu li a {
+	display: block;
+	float: left;
+	height: 44px;
+	background-image: url(../images/share-menu-sprite.png); text-indent: -9999px;
+}
+
+	ul#share-menu li a.instagram {
+		width: 54px; background-position: -288px 0;
+	}
+
+	ul#share-menu li a.facebook {
+		width: 54px; background-position: 0 0;
+	}
+
+	ul#share-menu li a.pinterest {
+		width: 54px; background-position: -74px 0;
+	}
+
+	ul#share-menu li a.twitter {
+		width: 54px; background-position: -148px 0;
+	}
+
+	ul#share-menu li a.google {
+		width: 44px; background-position: -222px 0;
+	}
+
+	ul#share-menu li a.newsletter {
+
+		width: 54px;
+		background-image:  url(../images/subscribe/subscribe-menu-sprite.gif);
+		background-repeat: no-repeat;
+		background-position: top right;
+	}
+
+	ul#share-menu li a.instagram:hover, ul#share-menu li a.instagram:focus {
+		background-position: -288px -45px;
+	}
+
+	ul#share-menu li a.facebook:hover, ul#share-menu li a.facebook:focus {
+		background-position: 0 -45px;
+	}
+
+	ul#share-menu li a.pinterest:hover, ul#share-menu li a.pinterest:focus {
+		background-position: -74px -45px;
+	}
+
+	ul#share-menu li a.twitter:hover, ul#share-menu li a.twitter:focus {
+		background-position: -148px -45px;
+	}
+
+	ul#share-menu li a.google:hover, ul#share-menu li a.google:focus {
+		background-position: -222px -45px;
+	}
+
+	ul#share-menu li a.newsletter:hover, ul#share-menu li a.newsletter:focus {
+
+		background-position: bottom right;
+	}
+
+
+a { outline: none; }
+
+#share-menu li:after {content: "."; display: block; height: 1em; clear: both; visibility: hidden;}
+
+/************************ miches additions ************************/
+
+#social-labels {
+
+	width: 278px;
+	display: block;
+	margin: 0 auto;
+	overflow: visible;
+}
+
+#share-label, #newsletter-label {
+
+	display: block;
+	position: relative;
+	width: 50%;
+	float: left;
+	text-align: left;
+	text-indent: 5px;
+	font-size: 0.8em;
+}
+
+#newsletter-label {
+
+	text-align:right;
+	text-indent: 0;
+	overflow: visible;
+}
+
+#newsletter-label span {
+
+	margin-right: -6px;
+}
+
+#newsletter-form {
+
+	text-align: left;
+	position: relative;
+
+	display: none;
+	width: 315PX;
+	padding: 15px 15px;
+	margin-left: -10px;
+
+	border: 2px solid #000;
+
+	margin: 0 auto;
+	top: -155px;
+
+	background: #FFF;
+
+	-webkit-box-shadow: 0px 0px 110px -30px rgba(0, 0, 0, 0.8);
+	-moz-box-shadow: 0px 0px 110px -30px rgba(0, 0, 0, 0.8);
+	box-shadow: 0px 0px 110px -30px rgba(0, 0, 0, 0.8);
+}
+
+
+#newsletter-form .newsletter-header .title {
+
+	display: block;
+	width: 80%;
+	float: left;
+	height: 20px;
+	line-height: 20px;
+
+	font-size: 1.2em;
+}
+
+#newsletter-form .newsletter-close {
+
+	width: 20%;
+	float: left;
+	text-align: right;
+	margin-top: -2px;
+}
+
+#newsletter-form .newsletter-close img {
+
+	cursor: pointer;
+}
+
+
+
+#newsletter-form .newsletter-field {
+
+	float: left;
+	clear: none;
+	background: url('../images/subscribe/subscribe-form-field.gif') no-repeat;
+	width: 196px;
+	height: 44px;
+}
+
+#newsletter-form input[type="text"] {
+
+    border: 0 none;
+	 height: 44px;
+    font-size: 15px;
+    margin-left: 15px;
+	 line-height: 44px;
+    width: 84%;
+	 background: transparent;
+}
+
+#newsletter-form input:focus {
+
+	outline: 0; /* no love for webkit glow, with custom field */
+}
+
+#newsletter-form .newsletter-submit:link,
+#newsletter-form .newsletter-submit:visited,
+#newsletter-form .newsletter-submit:hover,
+#newsletter-form .newsletter-submit:active {
+
+	position: relative;
+	margin-left: 10px;
+	float: left;
+	clear: none;
+	display: block;
+	background: url('../images/subscribe/subscribe-button-sprite.gif') no-repeat;
+	width: 108px;
+	height: 44px;
+}
+
+#newsletter-form .newsletter-submit:hover, #newsletter-form .newsletter-submit:focus {
+
+	background-position: 0 -45px;
+}
+
+#newsletter-form span {
+
+	display: block;
+	height: 35px;
+	line-height: 35px;
+	color: red;
+}
+
+@media only screen and (max-width : 320px) {
+
+	#newsletter-form {
+
+		width: auto;
+	}
+
+	#newsletter-form .newsletter-submit:link,
+	#newsletter-form .newsletter-submit:visited,
+	#newsletter-form .newsletter-submit:hover,
+	#newsletter-form .newsletter-submit:active {
+
+		margin: 0;
+		margin-top: 6px;
+
+	}
+
+	#newsletter-form .newsletter-header .title {
+
+		font-size: 1.1em;
+		width:  85%;
+	}
+
+	#newsletter-form .newsletter-close {
+
+		width: 15%;
+	}
+
+}
