@@ -219,6 +219,10 @@ footer {
 	background-image:url(../images/preview-place.png);
 }
 
+.da-thumbs .blank{
+	background-image:url(../images/preview-dummy.png);
+}
+
 /*----------- END TILES ------------------------------------------*/
 
 /*----------- START DOTS ------------------------------------------*/
