@@ -234,39 +234,14 @@ footer {
 	z-index:1;
 
 }
-/*--- SPRING DOTS ---*/
-#roadtripSantaBarbara { 
-	background-image:url(../roadtrip/images/santabarbara-dot.png);
-	background-size:contain;
-}
-#travellogSwitzerland { 
-	background-image:url(../travellog/images/switzerland-dot.png);
-	background-size:contain;
-}
-#hotspringsCalistoga { 
-	background-image:url(../hotsprings/calistoga/images/dot.png);
-	background-size:contain;
-}
 
-/*--- SUMMER DOTS ---*/
-#travellogSantorini { 
-	background-image:url(../travellog/santorini/images/dot.jpg);
+/*--- AIR DOTS ---*/
+#hotspringsBridgeport { 
+	background-image:url(../hotsprings/bridgeport/images/dot.jpg);
 	background-size:contain;
 }
-#makerChristenson { 
-	background-image:url(../maker/chrischristenson/images/dot.jpg);
-	background-size:contain;
-}
-#familytravelFinland { 
-	background-image:url(../familytravel/finland/images/dot.jpg);
-	background-size:contain;
-}
-#fieldworkTahiti { 
-	background-image:url(../fieldwork/tahiti/images/dot.jpg);
-	background-size:contain;
-}
-#beautyBrooklyn { 
-	background-image:url(../beauty/brooklyn/images/dot.jpg);
+#travellogHongKong { 
+	background-image:url(../travellog/hongkong/images/dot.jpg);
 	background-size:contain;
 }
 
@@ -297,12 +272,41 @@ footer {
 	background-size:contain;
 }
 
-/*--- AIR DOTS ---*/
-#hotspringsBridgeport { 
-	background-image:url(../hotsprings/bridgeport/images/dot.jpg);
+/*--- SUMMER DOTS ---*/
+#travellogSantorini { 
+	background-image:url(../travellog/santorini/images/dot.jpg);
+	background-size:contain;
+}
+#makerChristenson { 
+	background-image:url(../maker/chrischristenson/images/dot.jpg);
+	background-size:contain;
+}
+#familytravelFinland { 
+	background-image:url(../familytravel/finland/images/dot.jpg);
+	background-size:contain;
+}
+#fieldworkTahiti { 
+	background-image:url(../fieldwork/tahiti/images/dot.jpg);
+	background-size:contain;
+}
+#beautyBrooklyn { 
+	background-image:url(../beauty/brooklyn/images/dot.jpg);
 	background-size:contain;
 }
 
+/*--- SPRING DOTS ---*/
+#roadtripSantaBarbara { 
+	background-image:url(../roadtrip/images/santabarbara-dot.png);
+	background-size:contain;
+}
+#travellogSwitzerland { 
+	background-image:url(../travellog/images/switzerland-dot.png);
+	background-size:contain;
+}
+#hotspringsCalistoga { 
+	background-image:url(../hotsprings/calistoga/images/dot.png);
+	background-size:contain;
+}
 
 .dotLayout {
 	width:33%;

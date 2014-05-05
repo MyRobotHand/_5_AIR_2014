@@ -9,6 +9,15 @@ $(document).ready(function() {
 		function TAQ_dotnav (url) {
 			window.location = url;
 		}
+		
+		// AIR 2014 -->
+		$('#hotspringsBridgeport').bind('click', function() {
+			TAQ_dotnav("hotsprings/bridgeport/index.html");
+		});
+		
+		$('#travellogHongKong').bind('click', function() {
+			TAQ_dotnav("travellog/hongkong/index.html");
+		});
 
 		// SOLSTICE 2013 -->
 		$('#fieldworkMckenna').bind('click', function() {
