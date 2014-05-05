@@ -1,6 +1,0 @@
-CHANGE LOG
----
-2014-05-04
-JAKE
-Renamed sections-solstice.css to sections.css
-Moved .da-thumbs classes from main.css to sections.css
