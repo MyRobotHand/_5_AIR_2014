@@ -244,7 +244,7 @@ footer {
 	background-size:contain;
 }
 #hotspringsCalistoga { 
-	background-image:url(../hotsprings/images/calistoga-dot.png);
+	background-image:url(../hotsprings/calistoga/images/dot.png);
 	background-size:contain;
 }
 
@@ -294,6 +294,12 @@ footer {
 
 #forageSaltPoint { 
 	background-image:url(../forage/saltpoint/images/dot.jpg);
+	background-size:contain;
+}
+
+/*--- AIR DOTS ---*/
+#hotspringsBridgeport { 
+	background-image:url(../hotsprings/bridgeport/images/dot.jpg);
 	background-size:contain;
 }
 
