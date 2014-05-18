@@ -178,32 +178,30 @@ div.pg-box-content {
 
 /*----------- PAGE IDS--------------*/
 /*-----------    1    --------------*/
-/* TOP LEFT */
 #page-1 {
 	display:block;
 	z-index: 25;
 }
 
 /*-----------    2    --------------*/
-/* NO CONTENT */
 #page-2 {
 	display:none;
 	z-index: 24;
 }
 
 /*-----------    3    --------------*/
-/* 2:1 RIGHT SIDE BOX */
 #page-3 {
 	display:none;
 	z-index: 23;
 }
 
 /*-----------    4    --------------*/
-/* NO CONTENT */
 #page-4 {
 	display:none;
 	z-index: 22;
 }
+
+#page-four-box {}
 
 /*-----------    5    --------------*/
 #page-5 {
@@ -223,7 +221,9 @@ div.pg-box-content {
 	z-index: 19;
 }
 
+
 /*-----------    8    --------------*/
+/* 1:2 RIGHT SIDE BOX */
 #page-8 {
 	display:none;
 	z-index: 18;
@@ -274,46 +274,28 @@ div.pg-box-content {
 /*-----------    16    --------------*/
 #page-16 {
 	display:none;
-	z-index: 11;
+	z-index: 10;
 }
+
 /*-----------    17    --------------*/
 #page-17 {
 	display:none;
-	z-index: 11;
+	z-index: 9;
 }
+
 /*-----------    18    --------------*/
 #page-18 {
 	display:none;
-	z-index: 11;
+	z-index: 8;
 }
+
 /*-----------    19    --------------*/
 #page-19 {
 	display:none;
-	z-index: 11;
-}
-/*-----------    20    --------------*/
-#page-20 {
-	display:none;
-	z-index: 11;
-}
-/*-----------    21    --------------*/
-#page-21 {
-	display:none;
-	z-index: 11;
-}
-/*-----------    22    --------------*/
-#page-22 {
-	display:none;
-	z-index: 11;
-}
-/*-----------    23    --------------*/
-#page-23 {
-	display:none;
-	z-index: 11;
+	z-index: 7;
 }
 
-
-/*-----------    INTEREVIEW    --------------*/
+/*-----------    INTERVIEW    --------------*/
 #page-interview {
 	display:none;
 	z-index: 20;
