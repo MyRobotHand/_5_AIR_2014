@@ -32,8 +32,8 @@ h2 {
 	padding: 1% 2% 1% 1.6%;
 	width: 30%;
 	/*background-color:#FFF;
-	opacity:0.8; 
-    /*filter:alpha(opacity=80); /* IE transparency */
+	opacity:0.9; 
+    /*filter:alpha(opacity=90); /* IE transparency */
 	z-index:100;
 }
 
@@ -247,11 +247,12 @@ div.pg-box-content {
 	z-index: 15;
 }    
 
-/*-----------    12    --------------*/
+/*-----------    12    --------------
 #page-12 {
 	display:none;
 	z-index: 14;
 }
+*/
 
 /*-----------    13    --------------*/
 #page-13 {
@@ -295,11 +296,23 @@ div.pg-box-content {
 	z-index: 7;
 }
 
-/*-----------    INTERVIEW    --------------*/
-#page-interview {
+/*-----------    20    --------------*/
+#page-20 {
 	display:none;
-	z-index: 20;
-	font-family: 'NewsGothicBT-RomanCondensed',sans-serif;
+	z-index: 7;
+}
+
+/*-----------    21    --------------*/
+#page-21 {
+	display:none;
+	z-index: 7;
+}
+
+/*-----------    INTERVIEW    --------------*/
+#page-12 {
+	display:none;
+	z-index: 14;
+	
 }
 
 #pg-interview {
@@ -308,10 +321,11 @@ div.pg-box-content {
     width:	40%;  
     left:	55.749128919861%;
 	background-color:#FFF;  
-	opacity:0.8; 
-    filter:alpha(opacity=80); /* IE transparency */
+	opacity:0.9; 
+    filter:alpha(opacity=90); /* IE transparency */
 	padding: 1.5em;
 	text-align: left;
+	font-family: 'NewsGothicBT-RomanCondensed',sans-serif;
 }
 
 #pg-interview-content {
@@ -320,18 +334,18 @@ div.pg-box-content {
 	letter-spacing: 0.1em;
 	color: #000;
 	
-	-moz-column-count: 2;
+	/*-moz-column-count: 1;
 	-moz-column-gap: 1.5em;
 	-moz-column-rule: none;
 	-moz-column-width: 50%;
-	-webkit-column-count: 2;
+	-webkit-column-count: 1;
 	-webkit-column-gap: 1.5em;
 	-webkit-column-rule: none;
 	-webkit-column-width: 50%;
-	column-count: 2;
+	column-count: 1;
 	column-gap: 1.5em;
 	column-rule: none;
-	column-width: 50%;
+	column-width: 50%;*/
 }
 
 #pg-interview p {
@@ -344,7 +358,7 @@ div.pg-box-content {
 }
 
 #pg-interview a  {
-	color:#000; background-color:#e6e6e6;
+	color:#000; background-color:#ffee98;
 }
 
 #pg-interview a:link, #pg-interview a:visited {
@@ -382,8 +396,8 @@ div.pg-box a:hover, div.pg-box a:active {
 		left:	55.749128919861%;*/
 		float:left;
 		background-color:#FFF;  
-		opacity:0.8; 
-		filter:alpha(opacity=80); /* IE transparency */
+		opacity:0.9; 
+		filter:alpha(opacity=90); /* IE transparency */
 		padding: 1.5em;
 		text-align: left;
    }
@@ -394,7 +408,7 @@ div.pg-box a:hover, div.pg-box a:active {
 	letter-spacing: 0.1em;
 	color: #000;
 	
-	-moz-column-count: 1;
+	/*-moz-column-count: 1;
 	-moz-column-gap: 0;
 	-moz-column-rule: none;
 	-moz-column-width: 100%;
@@ -405,7 +419,7 @@ div.pg-box a:hover, div.pg-box a:active {
 	column-count: 1;
 	column-gap: 0;
 	column-rule: none;
-	column-width: 100%;
+	column-width: 100%;*/
 	}
 }
 
@@ -420,8 +434,8 @@ div.pg-box a:hover, div.pg-box a:active {
 		width:	40%;  
 		left:	55.749128919861%;
 		background-color:#FFF;  
-		opacity:0.8; 
-		filter:alpha(opacity=80); /* IE transparency */
+		opacity:0.9; 
+		filter:alpha(opacity=90); /* IE transparency */
 		padding: 1.5em;
 		text-align: left;
 	}
@@ -432,7 +446,7 @@ div.pg-box a:hover, div.pg-box a:active {
 		letter-spacing: 0.1em;
 		color: #000;
 		
-		-moz-column-count: 1;
+		/*-moz-column-count: 1;
 		-moz-column-gap: 0;
 		-moz-column-rule: none;
 		-moz-column-width: 100%;
@@ -443,7 +457,7 @@ div.pg-box a:hover, div.pg-box a:active {
 		column-count: 1;
 		column-gap: 0;
 		column-rule: none;
-		column-width: 100%;
+		column-width: 100%;*/
 	}   
 }
 
@@ -460,8 +474,8 @@ div.pg-box a:hover, div.pg-box a:active {
 		width:	40%;  
 		left:	55.749128919861%;
 		background-color:#FFF;  
-		opacity:0.8; 
-		filter:alpha(opacity=80); /* IE transparency */
+		opacity:0.9; 
+		filter:alpha(opacity=90); /* IE transparency */
 		padding: 1.5em;
 		text-align: left;
 	}
@@ -472,7 +486,7 @@ div.pg-box a:hover, div.pg-box a:active {
 		letter-spacing: 0.1em;
 		color: #000;
 		
-		-moz-column-count: 2;
+		/*-moz-column-count: 2;
 		-moz-column-gap: 1.5em;
 		-moz-column-rule: none;
 		-moz-column-width: 50%;
@@ -484,6 +498,7 @@ div.pg-box a:hover, div.pg-box a:active {
 		column-gap: 1.5em;
 		column-rule: none;
 		column-width: 50%;
+		*/
 	}
 
 }
