@@ -236,14 +236,30 @@ footer {
 }
 
 /*--- AIR DOTS ---*/
-#hotspringsBridgeport { 
-	background-image:url(../hotsprings/bridgeport/images/dot.jpg);
+
+#surfElSalvador { 
+	background-image:url(../surf/elsalvador/images/dot.jpg);
+	background-size:contain;
+}
+#familyTravelNicaragua { 
+	background-image:url(../familytravel/nicaragua/images/dot.jpg);
 	background-size:contain;
 }
 #travellogHongKong { 
 	background-image:url(../travellog/hongkong/images/dot.jpg);
 	background-size:contain;
 }
+#workshopJaipur { 
+	background-image:url(../workshop/jaipur/images/dot.jpg);
+	background-size:contain;
+}
+
+#hotspringsBridgeport { 
+	background-image:url(../hotsprings/bridgeport/images/dot.jpg);
+	background-size:contain;
+}
+
+
 
 /*--- SOLSTICE DOTS ---*/
 

@@ -11,13 +11,26 @@ $(document).ready(function() {
 		}
 		
 		// AIR 2014 -->
-		$('#hotspringsBridgeport').bind('click', function() {
-			TAQ_dotnav("hotsprings/bridgeport/index.html");
+		$('#surfElSalvador').bind('click', function() {
+			TAQ_dotnav("surf/elsalvador/index.html");
+		});
+		
+		$('#familyTravelNicaragua').bind('click', function() {
+			TAQ_dotnav("familytravel/nicaragua/index.html");
 		});
 		
 		$('#travellogHongKong').bind('click', function() {
 			TAQ_dotnav("travellog/hongkong/index.html");
 		});
+		
+		$('#workshopJaipur').bind('click', function() {
+			TAQ_dotnav("workshop/jaipur/index.html");
+		});
+		
+		$('#hotspringsBridgeport').bind('click', function() {
+			TAQ_dotnav("hotsprings/bridgeport/index.html");
+		});
+
 
 		// SOLSTICE 2013 -->
 		$('#fieldworkMckenna').bind('click', function() {
