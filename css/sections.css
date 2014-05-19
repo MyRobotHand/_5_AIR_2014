@@ -166,6 +166,16 @@ footer {
 
 
 /*----------- AIR 2014 --------------*/
+.da-thumbs .barcelona{
+	background-image: url(../images/preview-barcelona.png);
+}
+
+.da-thumbs .banff{
+	background-image: url(../images/preview-banff.png);
+}
+.da-thumbs .maui{
+	background-image: url(../images/preview-maui.png);
+}
 
 
 /*----------- SOLSTICE 2013 --------------*/
