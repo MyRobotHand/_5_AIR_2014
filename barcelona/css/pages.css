@@ -14,7 +14,7 @@ img {
 
 h2 {
 	font-weight:normal;
-	font-size: 1.4em;
+	font-size: 1.1em;
 	margin:0 0 0.5em 0;
 	padding:0;
 	text-transform:uppercase;
@@ -297,6 +297,17 @@ div.text-box-a a:hover, div.text-box-a a:active {
 	z-index: 22;
 }
 
+/*-----------    16    --------------*/
+#page-16 {
+	display:none;
+	z-index: 23;
+}
+/*-----------    17    --------------*/
+#page-17 {
+	display:none;
+	z-index: 24;
+}
+
 /*-----------    CONTRIBUTORS   --------------*/
 #page-contributors {
 	display:none;
@@ -320,26 +331,27 @@ div.text-box-a a:hover, div.text-box-a a:active {
 #page-contributors-box-dark {
 	top:	15%;
     left:	50%;  
-    width:	48.32222%;
+    width:	48.2%;
 	background-color:#000;  
 	/* opacity:0.4; 
     filter:alpha(opacity=40); /* IE transparency */
 	
-	padding: 1.5em 6em 1em 6em;	
+	padding: 1.5em 4em 1em 6em;	
 	text-align: left;
 }
 
 #page-contributors-box-blank {
-	top:	15%;
-    left:	56%;  
-    width:	38%;
+	top:	17%;
+    left:	50%;  
+    width:	48.2%;
+	font-size: 0.86em;
 	
 	/* background-image:url(../images/gray.png);
 	background-color:#000;  
 	opacity:0.4; 
     filter:alpha(opacity=40); /* IE transparency */
 	
-	padding: 1.5em 3em 1em 1.5em;	
+	padding: 1.5em 4em 1em 5em;	
 	text-align: left;
 }
 
@@ -368,8 +380,6 @@ div.text-box-a a:hover, div.text-box-a a:active {
 #page-resources {
 	display:none;
 	z-index: 31;
-	display:none;
-	z-index: 19;
 	font-family: 'NewsGothicBT-RomanCondensed',sans-serif;
 }
 
