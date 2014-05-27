@@ -84,7 +84,7 @@ $(document).ready(function() {
 			TAQ_dotnav("travellog/index.html");
 		});
 		$('#hotspringsCalistoga').bind('click', function() {
-			TAQ_dotnav("hotsprings/calistoga/index.html");
+			TAQ_dotnav("hotsprings/index.html");
 		});
 
 		// SHARE POP --------------------->

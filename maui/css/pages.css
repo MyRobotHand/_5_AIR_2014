@@ -335,10 +335,10 @@ div.text-box-a a:hover, div.text-box-a a:active {
     left:	56%;  
     width:	38%;
 	
-	/* background-image:url(../images/gray.png);
-	background-color:#000;  
-	opacity:0.4; 
-    filter:alpha(opacity=40); /* IE transparency */
+	/* background-image:url(../images/gray.png); */
+	background-color:#FFF;  
+	opacity:0.8; 
+    filter:alpha(opacity=80); /* IE transparency */
 	
 	padding: 1.5em 3em 1em 1.5em;	
 	text-align: left;

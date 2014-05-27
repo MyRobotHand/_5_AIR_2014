@@ -208,6 +208,17 @@ p.pg-box-content {
 	z-index: 17;
 }
 
+/*-----------    11    --------------*/
+#page-11 {
+	display:none;
+	z-index: 17;
+}
+/*-----------    12    --------------*/
+#page-12 {
+	display:none;
+	z-index: 17;
+}
+
 /*-----------    14   --------------*/
 #page-resources {
 	display:none;
