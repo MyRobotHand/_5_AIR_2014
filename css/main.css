@@ -23,7 +23,7 @@
 	display: inline-block;
 	padding:0;
 	margin:0 12px 0 0;
-	color:#006678;
+	color:#663366;
 }
 
 .header p.preorder_btn{
@@ -37,8 +37,8 @@
 	-moz-border-radius: 99px;
 	border-radius: 99px;
 	color:#000;
-	border:2px solid #006678;
-	background:rgba(0,65,79,1);
+	border:2px solid #993366;
+	background:rgba(153,51,102,1);
 }
 
 .header p.preorder_btn:hover{
@@ -46,8 +46,8 @@
 	-o-transition: all .15s ease-in;
 	-ms-transition: all .15s ease-in;
 	transition: all .15s ease-in;
-	border:2px solid #fd5965;
-	background:rgba(253,89,101,1);
+	border:2px solid #eb4e9d;
+	background:rgba(255,102,153,1);
 }
 
 .header p.preorder_btn a{
