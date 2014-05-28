@@ -44,16 +44,16 @@ h1 {
 
 #nav {
 	/*font-family: 'NewsGothicBT-RomanCondensed',sans-serif;*/
-	padding: 1% 2% 1% 1.6%;
-	position: absolute;
+	padding: 0% 2% 1% 1.6%;
+	position: relative;
 	bottom: 0; 
 	left: 0;
 	width: 30%;
 
-	background-color:#FFF;
+	/*background-color:#FFF;
 	opacity:0.8; 
     filter:alpha(opacity=80); /* IE transparency */
-	z-index:100;
+	/*z-index:100;*/
 }
 
 /* #nav li, #nav ul {

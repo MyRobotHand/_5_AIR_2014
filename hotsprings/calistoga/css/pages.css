@@ -30,7 +30,7 @@ h2 {
 }
 
 #nav {
-	padding: 1% 2% 1% 1.6%;
+	padding: 0% 2% 1% 1.6%;
 	width: 30%;
 	z-index:100;
 }
@@ -79,7 +79,7 @@ h2 {
 	height: 160px;
 	margin: 8.333333333333% 0px 0px 0.5%;
 	float:left;
-	background: transparent url(../../images/arrow_prev.png) no-repeat;
+	background: transparent url(../../../images/arrow_prev.png) no-repeat;
 	
 	/*-moz-background-size:122px 122px; /* Firefox 3.6 */
 	/* background-size:122px 122px; */
@@ -95,7 +95,7 @@ h2 {
 	height: 160px;
 	margin: 6% 0.5% 0 0;
 	float:right;
-	background: transparent url(../../images/arrow_next.png) no-repeat;
+	background: transparent url(../../../images/arrow_next.png) no-repeat;
 	
 	/*-moz-background-size:160px 160px; /* Firefox 3.6 */
 	/*background-size:160px 160px; */

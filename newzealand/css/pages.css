@@ -31,7 +31,7 @@ h2 {
 }
 
 #nav {
-	padding: 1% 2% 1% 1.6%;
+	padding: 0.1% 2% 1% 1.6%;
 	width: 30%;
 	z-index:100;
 }
@@ -135,7 +135,7 @@ div.pg-wrapper {
     position:relative; 	/* important(so we can absolutely position the description div */
 	text-align:left;
 	width: 100%;
-	padding: 1em;
+	padding: 1em 1em 0em 1em;
 }
 
 div.pg-wrapper img {  
