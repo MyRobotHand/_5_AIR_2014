@@ -13,12 +13,10 @@
         
         <link rel="shortcut icon" href="../../images/favicon.png">
 
-    
-
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-		<script type="text/javascript" src="../../js/jquery.easing.min.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script> 
+		    <script type="text/javascript" src="../../js/jquery.easing.min.js"></script>
         <script type="text/javascript" src="../../js/jquery.transit.js"></script>
-          <script type="text/javascript" src="../../js/jquery.mobile-1.4.2.js"></script>
+        <script type="text/javascript" src="../../js/jquery.mobile-1.4.2.js"></script>
         <script type="text/javascript">		
 				window.addEventListener("load",function() {
 		   		setTimeout(function(){
@@ -171,7 +169,7 @@
           		<div id="nav-holder"><div id="nav"><a href="../../index.html"><img src="../../images/tiny-atlas-sm.jpg" alt="Tiny Atlas Quarterly"></a></div></div>
            </div>
           <!-- END PAGE 0 ------------------------------------------------------------->
-        <script>
+  <script>
 			//----------------- SLIDE SHOW ------------------------------//
 			var pgPages = new Array();
 			pgPages[0] = "page-one";
@@ -183,21 +181,40 @@
 			pgPages[6] = "page-fourteen";
 			var pageCount = 0;
 			var pageNext;
-			$('#pg-pageUp').bind('click', function() {               
-				pageUp();
+      
+      var isClicked = false;
+			$('#pg-pageUp').bind('click', function() {
+        if(isClicked)
+				  pageUp();
+        isClicked = !isClicked;
 			});
       
-      jQuery( window ).on('swiperight', function() {
-        pageDown();
+      var isSwiped = false;
+      jQuery( document ).on('swiperight', function(event) {
+        if($(event.target).hasClass('pg-prev') || $(event.target).hasClass('pg-next'))
+          return;
+
+        if(isSwiped)
+          pageDown();
+        isSwiped = !isSwiped;
+      });
+  
+      jQuery( document ).on( "swipeleft", function(event) {
+        if($(event.target).hasClass('pg-prev') || $(event.target).hasClass('pg-next'))
+          return;
+
+        if(isSwiped)
+          pageUp();
+        isSwiped = !isSwiped;
       });
 
-      jQuery( window ).on( "swipeleft", function() {        
-        pageUp();
-      });
-
-			$('#pg-pageDown').bind('click', function() {
-				pageDown();
+			$('#pg-pageDown').bind('click', function(event) {
+        if(isClicked)
+  				pageDown();
+        isClicked = !isClicked;
 			});
+
+
 			function pageUp()
 			{
 				if (pageCount == (pgPages.length - 1)) {
@@ -233,6 +250,6 @@
 			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		  })();
-		</script>
+  </script>
 </body>
 </html>
